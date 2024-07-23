@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  #user-container, #cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .card button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .card button.delete {
+    background-color: #dc3545;
+  }
+  
